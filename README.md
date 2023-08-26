@@ -111,7 +111,7 @@ type Enhancer = (name: string, cmd: Command) => void
 ```
 
 ## 使用方式
-- `createCommand`: 创建命令，返回命令对象。可以使用 `addCommand` 方法在任意命令直接进行主子链接, 聚合命令系统。第一个参数为 `CommandSchema` 配置。 对于配置不使用的场景，可以通过传入第二个参数 `enhancer: Enhancer` 进行补充增强。
+- `createCommand`: 创建命令，返回命令对象。可以使用 `addCommand` 方法在任意命令直接进行主子链接, 聚合命令系统。第一个参数为 `CommandSchema` 配置。 对于配置不适用的场景，可以通过传入第二个参数 `enhancer: Enhancer` 进行补充增强。
 - `Command`: 即 commander 的 Command。
 - `CommandSchema`: 配置类型。
 
