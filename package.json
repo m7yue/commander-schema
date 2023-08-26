@@ -1,0 +1,22 @@
+{
+  "name": "commander-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "directory": "lib"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "m7yue",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "typescript": "^5.0.2"
+  }
+}
